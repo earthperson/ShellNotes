@@ -51,3 +51,4 @@
 #nc, netcat
 #nmap
 #hexdump -C foo.php
+#dpkg --get-selections | grep <package>
