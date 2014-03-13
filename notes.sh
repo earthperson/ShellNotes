@@ -52,3 +52,6 @@
 #nmap
 #hexdump -C foo.php
 #dpkg --get-selections | grep <package>
+#update-alternatives --config <name>
+#dpkg-reconfigure 
+#update-rc.d #which is the equivalent of chkconfig
