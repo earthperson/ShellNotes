@@ -55,3 +55,4 @@
 #update-alternatives --config <name>
 #dpkg-reconfigure 
 #update-rc.d #which is the equivalent of chkconfig
+#png2ico favicon.ico logo16x16.png logo32x32.png
