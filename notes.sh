@@ -59,3 +59,4 @@
 #ls -lh <filename> | cut -f 5 -d " "
 #git reset[ --soft|hard] HEAD~1
 #git reflog
+#m-a prepare
