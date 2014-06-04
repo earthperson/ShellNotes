@@ -60,3 +60,5 @@
 #git reset[ --soft|hard] HEAD~1
 #git reflog
 #m-a prepare
+#mount -t vboxsf share mount_point
+#split -n <n> file
