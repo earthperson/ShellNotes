@@ -62,3 +62,4 @@
 #m-a prepare
 #mount -t vboxsf share mount_point
 #split -n <n> file
+#less /etc/services
