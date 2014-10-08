@@ -63,3 +63,4 @@
 #mount -t vboxsf share mount_point
 #split -n <n> file
 #less /etc/services
+#export #declare #let #local #printenv #set #unset #Михаэль Кофлер. Весь Linux. Локальные и глобальные переменные (переменные среды). Стр. 440
