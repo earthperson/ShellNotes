@@ -65,5 +65,5 @@
 #less /etc/services
 #export #declare #let #local #printenv #set #unset #Михаэль Кофлер. Весь Linux. Локальные и глобальные переменные (переменные среды). Стр. 440
 #sed [опции] команда [< источник > цель] #Михаэль Кофлер. Весь Linux. Алфавитный перечень команд. Стр. 513
-git checkout --ours <filename>
-git checkout --theirs <filename>
+#git checkout --ours <filename>
+#git checkout --theirs <filename>
