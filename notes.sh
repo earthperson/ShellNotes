@@ -62,6 +62,7 @@
 #m-a prepare
 #mount -t vboxsf share mount_point
 #split -n <n> file
+#cat x* #Better start typing cat x, than press Esc and then * - you'll see the expanded order of files and can rearrange.
 #less /etc/services
 #export #declare #let #local #printenv #set #unset #Михаэль Кофлер. Весь Linux. Локальные и глобальные переменные (переменные среды). Стр. 440
 #sed [опции] команда [< источник > цель] #Михаэль Кофлер. Весь Linux. Алфавитный перечень команд. Стр. 513
