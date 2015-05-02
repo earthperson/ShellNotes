@@ -68,3 +68,5 @@
 #sed [опции] команда [< источник > цель] #Михаэль Кофлер. Весь Linux. Алфавитный перечень команд. Стр. 513
 #git checkout --ours <filename>
 #git checkout --theirs <filename>
+#apt-get install msttcorefonts
+#apt-get install fonts-inconsolata
