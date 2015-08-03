@@ -9,3 +9,4 @@ REM net session
 REM netsh interface portproxy add v4tov4 listenport= {целое_число | имя_службы} [[connectaddress=] {IPv4-адрес | имя_узла}] [[connectport=] {целое_число | имя_службы}] [[listenaddress=] {IPv4-адрес| имя_узла}] [[protocol=]tcp]
 REM netsh interface portproxy delete v4tov4 listenport= {целое_число | имя_службы} [[listenaddress=] {IPv4-адрес| имя_узла}] [[protocol=]tcp]
 REM netsh interface portproxy show all
+REM VBoxManage.exe modifyhd c:\path\to\thedisk.vdi --compact #http://superuser.com/questions/529149/how-to-compact-virtualboxs-vdi-file-size

@@ -71,3 +71,4 @@
 #apt-get install msttcorefonts
 #apt-get install fonts-inconsolata
 #yum install kernel-devel-$(uname -r) kernel-headers-$(uname -r) gcc
+#sudo dd if=/dev/zero of=/bigemptyfile bs=4096k; sudo rm -rf /bigemptyfile #http://superuser.com/questions/529149/how-to-compact-virtualboxs-vdi-file-size
