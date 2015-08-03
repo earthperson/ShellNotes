@@ -70,3 +70,4 @@
 #git checkout --theirs <filename>
 #apt-get install msttcorefonts
 #apt-get install fonts-inconsolata
+#yum install kernel-devel-$(uname -r) kernel-headers-$(uname -r) gcc
