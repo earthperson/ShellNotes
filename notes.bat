@@ -11,3 +11,8 @@ REM netsh interface portproxy delete v4tov4 listenport= {целое_число |
 REM netsh interface portproxy show all
 REM VBoxManage.exe modifyhd c:\path\to\thedisk.vdi --compact #http://superuser.com/questions/529149/how-to-compact-virtualboxs-vdi-file-size
 REM sdelete -c #https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx
+REM Verifying checksums on Windows systems (powershell session)
+REM $file="file"
+REM $sha256 = New-Object -TypeName System.Security.Cryptography.sha256CryptoServiceProvider #sha1CryptoServiceProvider
+REM $checksum = [System.BitConverter]::ToString($sha256.ComputeHash([System.IO.File]::ReadAllBytes("$PWD\$file"))).ToLower() -replace '-', ''
+REM echo "Checksum: $checksum"
