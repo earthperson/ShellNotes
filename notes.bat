@@ -13,6 +13,7 @@ REM VBoxManage.exe modifyhd c:\path\to\thedisk.vdi --compact #http://superuser.c
 REM sdelete -c <physical disk number> #https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx
 REM Verifying checksums on Windows systems (powershell session)
 REM $file="file"
+REM Add-Type -AssemblyName System.Core
 REM $sha256 = New-Object -TypeName System.Security.Cryptography.sha256CryptoServiceProvider #sha1CryptoServiceProvider
 REM $checksum = [System.BitConverter]::ToString($sha256.ComputeHash([System.IO.File]::ReadAllBytes("$PWD\$file"))).ToLower() -replace '-', ''
 REM echo "Checksum: $checksum"
