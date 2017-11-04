@@ -76,3 +76,4 @@
 #last reboot
 #tar -cvjf file.tar.bz2 list_of_files
 #tar -xvjf file.tar.bz2
+#git checkout --orphan <feature_branch>; git rm --cached -r .; git add <source>; git commit -m "Start new feature branch"; git push origin <feature_branch>
