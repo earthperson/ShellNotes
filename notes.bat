@@ -19,6 +19,7 @@ REM $checksum = [System.BitConverter]::ToString($sha256.ComputeHash([System.IO.F
 REM echo "Checksum: $checksum"
 REM regedit
 REM dxdiag
+REM Режимы запуска Word (упрощенный, безопасный, макрос)
 REM WINWORD /A
 REM WINWORD /SAFE
 REM WINWORD /M
