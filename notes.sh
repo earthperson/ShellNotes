@@ -5,6 +5,7 @@
 #/etc/resolv.conf
 #alias
 #apropos
+#apt-get install build-essential module-assistant
 #apt-get install fonts-inconsolata
 #apt-get install msttcorefonts
 #cal
