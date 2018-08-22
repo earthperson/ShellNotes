@@ -4,6 +4,7 @@ REM sc
 REM ipconfig
 REM tracert
 REM subst
+REM msconfig
 REM mstsc /console /admin
 REM net session
 REM netsh interface portproxy add v4tov4 listenport= {целое_число | имя_службы} [[connectaddress=] {IPv4-адрес | имя_узла}] [[connectport=] {целое_число | имя_службы}] [[listenaddress=] {IPv4-адрес| имя_узла}] [[protocol=]tcp]
