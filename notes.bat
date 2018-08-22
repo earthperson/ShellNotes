@@ -24,3 +24,5 @@ REM Режимы запуска Word (упрощенный, безопасный
 REM WINWORD /A
 REM WINWORD /SAFE
 REM WINWORD /M
+REM telnet
+
