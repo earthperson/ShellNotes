@@ -33,6 +33,7 @@
 #hostname
 #httpd
 #ifconfig -a
+#iperf -c <server_host>
 #last reboot
 #less /etc/services
 #linphonec
