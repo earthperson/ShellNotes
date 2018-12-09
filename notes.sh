@@ -30,6 +30,7 @@
 #groups
 #help
 #hexdump -C foo.php
+#history -c && history -w
 #hostname
 #httpd
 #ifconfig -a
