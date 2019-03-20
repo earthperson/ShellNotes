@@ -21,6 +21,7 @@
 #export #declare #let #local #printenv #set #unset #Михаэль Кофлер. Весь Linux. Локальные и глобальные переменные (переменные среды). Стр. 440
 #file
 #finger
+#git commit --amend
 #git checkout --orphan <feature_branch>; git rm --cached -r .; git add <source>; git commit -m "Start new feature branch"; git push origin <feature_branch>
 #git checkout --ours <filename>
 #git checkout --theirs <filename>
