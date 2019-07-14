@@ -11,6 +11,7 @@ REM regedit
 REM sc
 REM sdelete -c <physical disk number> #https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx
 REM set
+REM sfc /scannow
 REM subst
 REM telnet
 REM tracert
