@@ -15,14 +15,24 @@ REM sfc /scannow
 REM subst
 REM telnet
 REM tracert
+
+REM ie4uinit.exe -ClearIconCache
+REM taskkill /IM explorer.exe /F
+REM DEL "%localappdata%\IconCache.db" /A
+REM DEL "%localappdata%\Microsoft\Windows\Explorer\iconcache*" /A
+REM shutdown /r /f /t 00
+
 REM VBoxManage.exe modifyhd c:\path\to\thedisk.vdi --compact #http://superuser.com/questions/529149/how-to-compact-virtualboxs-vdi-file-size
+
 REM Verifying checksums on Windows systems (powershell session)
 REM $file="file"
 REM Add-Type -AssemblyName System.Core
-REM $sha256 = New-Object -TypeName System.Security.Cryptography.sha256CryptoServiceProvider #sha1CryptoServiceProvider, md5CryptoServiceProvider
+REM $sha256 = New-Object -TypeName System.Security.Cryptography.sha256CryptoServiceProvider #sha1CryptoServiceProvider
 REM $checksum = [System.BitConverter]::ToString($sha256.ComputeHash([System.IO.File]::ReadAllBytes("$PWD\$file"))).ToLower() -replace '-', ''
 REM echo "Checksum: $checksum"
+
 REM Режимы запуска Word (упрощенный, безопасный, макрос)
 REM WINWORD /A
 REM WINWORD /SAFE
 REM WINWORD /M
+
