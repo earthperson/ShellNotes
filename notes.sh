@@ -15,6 +15,7 @@
 #dhclient eth0
 #dmesg
 #dpkg --get-selections | grep <package>
+#dpkg -l
 #dpkg-reconfigure 
 #du -sh
 #echo $0
