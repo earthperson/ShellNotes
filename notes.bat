@@ -1,3 +1,4 @@
+REM CertUtil [Параметры] -hashfile InFile [HashAlgorithm] #Создает и отображает криптографический хеш над файлом
 REM dxdiag
 REM ipconfig
 REM msconfig
