@@ -26,6 +26,7 @@
 #git checkout --orphan <feature_branch>; git rm --cached -r .; git add <source>; git commit -m "Start new feature branch"; git push origin <feature_branch>
 #git checkout --ours <filename>
 #git checkout --theirs <filename>
+#git gui
 #git reflog
 #git reset[ --soft|hard] HEAD~1
 #groupadd
