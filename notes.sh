@@ -29,6 +29,7 @@
 #git gui
 #git reflog
 #git reset[ --soft|hard] HEAD~1
+#git status --ignored
 #groupadd
 #groups
 #help
