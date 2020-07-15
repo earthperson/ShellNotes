@@ -62,6 +62,7 @@
 #php
 #ping
 #png2ico favicon.ico logo16x16.png logo32x32.png
+#ps -aux
 #route -n
 #screen
 #sed [опции] команда [< источник > цель] #Михаэль Кофлер. Весь Linux. Алфавитный перечень команд. Стр. 513
