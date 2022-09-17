@@ -28,7 +28,9 @@
 #git checkout --theirs <filename>
 #git gui
 #git reflog
+№git reset --merge
 #git reset[ --soft|hard] HEAD~1
+#git stash; git stash pop
 #git status --ignored
 #groupadd
 #groups
