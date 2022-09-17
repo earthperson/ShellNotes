@@ -27,6 +27,7 @@
 #git checkout --ours <filename>
 #git checkout --theirs <filename>
 #git gui
+#git push --delete origin <tagname>; git tag --delete <tagname>
 #git reflog
 #git reset --merge
 #git reset[ --soft|hard] HEAD~1
